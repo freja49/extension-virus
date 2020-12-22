@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIRUS VIEWER</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+        integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+        crossorigin="anonymous" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel='stylesheet' href='popUp.css' />
+
+</head>
+
+<body>
+    <div class="virus">
+        <h1>Virus Viewer</h1>
+        <form class="form">
+            <div class='field ui input'>
+                <input type='text' class='search' placeholder="enter a country" />
+                <button type='submit' class='ui instagram button'>Search!</button>
+            </div>
+        </form>
+        <div class='result'>
+            <div class="loading">
+                <div class="ui active centered inline loader"></div>
+                <span>Loading</span>
+            </div>
+            <div class="error ui brown message">SORRY! We cannot find the country!</div>
+            <div class="data ui list">
+                <div class="item"><i class='chevron right icon left floated'></i> TOTAL CASES:  <span class="cases"></span></div>
+                <div class="item"><i class='chevron right icon left floated'></i> TODAY CASES:  <span class="todayCases"></span></div>
+                <div class="item"><i class='chevron right icon left floated'></i> TOTAL DEATHS:  <span class="deaths"></span></div>
+                <div class="item"><i class='chevron right icon left floated'></i> TODAY DEATHS:  <span class="todayDeaths"></span></div>
+            </div>
+        </div>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="popUp.js"></script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+
+.virus{  
+    padding:8%;
+    
+    height: auto;
+}
+h1{
+    color:#f05454;
+    text-align: center;
+}
+.loading{
+    text-align: center;
+    margin-top: 10%;
+}
+.data{
+    font-size: 24px;
+    text-emphasis: center;
+    width: 90%;
+    font-weight: bold;
+    margin-left: 5%;
+}
+.data span{
+    font-weight: normal;
+    float: right;
+    color: #f05454;
+}
+.item i{
+    margin-right: 30%;
+}
+.data i{
+    color:orangered;
+}
+button{
+    background-color: #f05454;
+}

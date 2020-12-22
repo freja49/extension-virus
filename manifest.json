@@ -1,0 +1,13 @@
+{
+    "name": "Virus Viewer",
+    "version": "1.0",
+    "description": "GET THE LATEST NUMBER OF VIRUS!",
+    "browser_action": {
+      "default_popup": "popUp.html",
+      "default_icon":  "icon.png"
+
+    },
+    "manifest_version": 2,
+    "content_security_policy": "script-src 'self' https://unpkg.com ; object-src 'self'"
+    
+  }
